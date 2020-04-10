@@ -1,0 +1,49 @@
+<Html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body{background-image:url('https://lh3.googleusercontent.com/proxy/Lea5bmC0u_jQOPuT2ElkUwfgry-oExyeFJuRzNeaIuQ8MC6d8w2kO08KltkxAwCRwn0InqAZN6bGjgUVx1cQ_eufLK_W4_c');}
+li{
+   background: #43E1EB;
+   color:white;
+   font-family:Arial;
+   color: white;}
+
+</style>
+<style>
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+</style>
+
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="inicio sesion.html">ingresar usuario</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-center">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">PRODUCTOS</a></li>
+            <li><a href="#">EVENTOS</a></li>
+            <li><a href="#">SUSCRIPCION</a></li>
+            <li><a href="#">SERVICIOS</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a>DOCTOR PET</a></li>
+        </ul>
+    </div>
+</nav>
+
+</body>
+</Html>
